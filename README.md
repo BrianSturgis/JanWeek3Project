@@ -27,6 +27,7 @@ A user should be able to enter a new number and see new results over and over ag
 
 
 ## Known Bugs
+none as of yet
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWeek3Project)
