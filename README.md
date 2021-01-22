@@ -48,6 +48,10 @@ none as of yet
 - this application is currently not avail on gh pages. 
 
 ## Stretch goals
+- images, styling, and custom animations used in UI.
+- Implement different behaviors/effects/images for different inputs.
+- Include an option that returns the output in reversed order (beginning with the largest number).
+- Add a second form field that takes a name as an input. Then update the output so that the program states "Won't you be my neighbor, [name]?" instead of "Won't you be my neighbor?"
 - animated UI
 - unity driven UI
 - Adobe DSP workflow fully integrated 
