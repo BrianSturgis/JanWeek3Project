@@ -7,7 +7,6 @@
 
 ## Detailed Description
 
-
 ## The projects objectives were to complete the following (MVP)
 
 ## Known Bugs
