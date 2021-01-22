@@ -25,7 +25,6 @@ A user should be able to enter a new number and see new results over and over ag
 - Application implements a loop and works as expected.
 - The user can use the application repeatedly and see new results.
 
-
 ## Known Bugs
 none as of yet
 
@@ -44,7 +43,7 @@ none as of yet
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
 
-## GIT HUB PAGES LINK
+## GIT HUB PAGES 
 - this application is currently not avail on gh pages. 
 
 ## Stretch goals
