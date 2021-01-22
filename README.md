@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="img/capture.jpg" width="auto" height="auto" >
+<img src="" width="auto" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Jan 22nd, v1.0 2021</p>
