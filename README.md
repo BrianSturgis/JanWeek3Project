@@ -46,6 +46,31 @@ none as of yet
 ## GIT HUB PAGES 
 - this application is currently not avail on gh pages. 
 
+## SPECS
+Describe: toBeNamed()
+Test: "It should do a thing and output some stuff"
+Expect(0).toEqual([0]);
+
+Describe: toBeNamed()
+Test: "It should do a thing and output some stuff"
+Expect(0).toEqual([0]);
+
+Describe: toBeNamed()
+Test: "It should do a thing and output some stuff"
+Expect(0).toEqual([0]);
+
+Describe: toBeNamed()
+Test: "It should do a thing and output some stuff"
+Expect(0).toEqual([0]);
+
+Describe: toBeNamed()
+Test: "It should do a thing and output some stuff"
+Expect(0).toEqual([0]);
+
+Describe: toBeNamed()
+Test: "It should do a thing and output some stuff"
+Expect(0).toEqual([0]);
+
 ## Stretch goals
 - images, styling, and custom animations used in UI.
 - Implement different behaviors/effects/images for different inputs.
