@@ -1,4 +1,4 @@
-// business logic
+//BIZ logic
 function getNumberRange(numbers)  {
   let numberRange = [];
   for (let i = 0; i <= numbers; i++)
@@ -14,17 +14,13 @@ function getNumberRange(numbers)  {
     return numberRange;
   }
 
-
 //UI logic
 $(document).ready(function(){
   $("#inputNumber").submit(function(event){
     event.preventDefault();
     let numbers = parseInt($("#numbers").val());
     let name = $("#nameOfPerson").val();
-    console.log(numbers);
     let answer = getNumberRange(numbers);
-    console.log(answer);
-    console.log(name);
-    $("#response").text(name + answer);
+    $("#response").text("Thanks " + name + answer +" have a nice day!");
   });
 });

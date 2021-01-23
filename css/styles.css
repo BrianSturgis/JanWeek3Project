@@ -19,18 +19,9 @@ body {
   top: 550px;
   color: aqua;  
   font-family: 'Press Start 2P', cursive;
-  width: 168px;
-  height: 100px;
+  width: 105px;
+  height: 80px;
 }
-
-/* #darkMode {
-  position: absolute;
-  left: 1370px;
-  top: 560px;
-  color: transparent;
-  width: 468px;
-  height: 100px;
-} */
 
 .txt {
   color: #ffffff;
@@ -38,7 +29,7 @@ body {
   font-size:200px;
   font-weight: bold;
   font-family: 'Press Start 2P', cursive;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .txt::before {

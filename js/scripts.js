@@ -1,22 +1,3 @@
 // business logic
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // user logic
-
-
-
-
-
-
