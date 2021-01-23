@@ -1,0 +1,18 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: aqua;
+}
+
+#error {
+  display: none;
+}
+
+#reverse {
+  display: none;
+}
+
+#result {
+  display: none;
+}
