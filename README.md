@@ -4,6 +4,7 @@
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Jan 22nd, v1.0 2021</p>
+<p align="center">Mr Robogers Neighborhood</p>
 
 ## Detailed Description
 This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
@@ -26,7 +27,7 @@ A user should be able to enter a new number and see new results over and over ag
 - The user can use the application repeatedly and see new results.
 
 ## Known Bugs
-none as of yet
+none as of yet but don't fret as there will be.
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWeek3Project)
@@ -72,12 +73,12 @@ Test: "It should do a thing and output some stuff"
 Expect(0).toEqual([0]);
 
 ## Stretch goals
-- images, styling, and custom animations used in UI.
+- Images, styling, and custom animations used in UI.
 - Implement different behaviors/effects/images for different inputs.
 - Include an option that returns the output in reversed order (beginning with the largest number).
 - Add a second form field that takes a name as an input. Then update the output so that the program states "Won't you be my neighbor, [name]?" instead of "Won't you be my neighbor?"
-- animated UI
-- unity driven UI
+- Animated UI
+- Unity driven UI
 - Adobe DSP workflow fully integrated 
 
 ## Support and contact details
@@ -98,6 +99,7 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 ## Resources Quoted
 - w3schools
 - Wikipedia
+- -Udemy.com
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

@@ -11,12 +11,17 @@
   <div class="container">
     <h1 id="header">Mr Robogers Neighborhood</h1>
     <form id="inputNumber">
+      <div class="nameForm">
+        <input id="nameOfPerson" type="text" name="name" autocomplete="off" required/>
+        <span class="content-name">type in your name</span>
+      </div>
       <div class="form-group">
         <label for="number">please enter any number here</label>
         <input id="numbers" type="text">
         <button id="press" type="submit" class="btn">PRESS TO TALK</button>
         <button id="reverse" type="submit" class="btn">REVERSE RESPONSE</button>
       </div> 
+      
     </form>
     <div class="output" id="error">
       <p id="errormessage">We are very sorry but Mr. Roboger is currently experiencing tech issues.  If you can not decipher his message please try again later.. Thank you.
