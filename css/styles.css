@@ -3,6 +3,7 @@ body {
   padding: 0;
   background:#000000;
 }
+
 .wrapper {
   height: 800px;
   display: flex;
@@ -10,6 +11,7 @@ body {
   justify-content: center;
   background: #000000; 
 }
+
 #enter {
   position: absolute;
   background-color: aqua;
@@ -20,15 +22,15 @@ body {
   height: 100px;
 }
 
-#darkMode {
-  /* background-color: aqua; */
+/* #darkMode {
   position: absolute;
   left: 1370px;
   top: 560px;
   color: transparent;
   width: 468px;
   height: 100px;
-}
+} */
+
 .txt {
   color: #ffffff;
   background:#000000;
@@ -37,17 +39,20 @@ body {
   font-family: Arial;
   text-transform: uppercase;
 }
+
 .txt::before {
   content: 'welcome';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
 }
+
 .neon-wrapper {
   display:inline-flex;
   filter: brightness(500%);
   overflow: hidden;
 }
+
 .gradient{
   background: linear-gradient(114.5793141156962deg, rgb(56, 198, 214) 4.927083333333334%,rgb(89, 64, 229) 97.84374999999999%);
   position: absolute;
@@ -57,6 +62,7 @@ body {
   height:100%;
   mix-blend-mode: multiply;
 }
+
 .dodge {
   background: radial-gradient(circle,white,black 35%) center / 25% 25%;
   position: absolute;
@@ -67,27 +73,9 @@ body {
   mix-blend-mode: color-dodge;
   animation: dodge-area 8s linear infinite;
 }
+
 @keyframes dodge-area {
   to {
       transform: translate(50%,50%);
   }
-
-/* #enter {
-  position: absolute;
-  left: 1340px;
-  top: 350px;
-  color: transparent;
-  width: 468px;
-  height: 100px;
-}
-
-a#darkMode {
-  /* background-color: aqua; */
-  position: absolute;
-  left: 1370px;
-  top: 560px;
-  color: transparent;
-  width: 468px;
-  height: 100px;
-} */
 }
