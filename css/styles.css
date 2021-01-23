@@ -1,18 +1,93 @@
 body {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
+  margin: 0;
+  padding: 0;
+  background:#000000;
+}
+.wrapper {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000; 
+}
+#enter {
+  position: absolute;
   background-color: aqua;
+  left: 1340px;
+  top: 550px;
+  color: aqua;  
+  width: 168px;
+  height: 100px;
 }
 
-#error {
-  display: none;
+#darkMode {
+  /* background-color: aqua; */
+  position: absolute;
+  left: 1370px;
+  top: 560px;
+  color: transparent;
+  width: 468px;
+  height: 100px;
+}
+.txt {
+  color: #ffffff;
+  background:#000000;
+  font-size:200px;
+  font-weight: bold;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+.txt::before {
+  content: 'welcome';
+  position: absolute;
+  mix-blend-mode: difference;
+  filter: blur(3px);
+}
+.neon-wrapper {
+  display:inline-flex;
+  filter: brightness(500%);
+  overflow: hidden;
+}
+.gradient{
+  background: linear-gradient(114.5793141156962deg, rgb(56, 198, 214) 4.927083333333334%,rgb(89, 64, 229) 97.84374999999999%);
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  mix-blend-mode: multiply;
+}
+.dodge {
+  background: radial-gradient(circle,white,black 35%) center / 25% 25%;
+  position: absolute;
+  top:-100%;
+  left:-100%;
+  right:0;
+  bottom:0;
+  mix-blend-mode: color-dodge;
+  animation: dodge-area 8s linear infinite;
+}
+@keyframes dodge-area {
+  to {
+      transform: translate(50%,50%);
+  }
+
+/* #enter {
+  position: absolute;
+  left: 1340px;
+  top: 350px;
+  color: transparent;
+  width: 468px;
+  height: 100px;
 }
 
-#reverse {
-  display: none;
-}
-
-#result {
-  display: none;
+a#darkMode {
+  /* background-color: aqua; */
+  position: absolute;
+  left: 1370px;
+  top: 560px;
+  color: transparent;
+  width: 468px;
+  height: 100px;
+} */
 }
