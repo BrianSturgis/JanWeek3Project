@@ -17,3 +17,7 @@ body {
 #result {
   display: none;
 }
+
+.nes-container-is-rounded {
+  display: none;
+}

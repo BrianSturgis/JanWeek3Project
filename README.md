@@ -48,15 +48,14 @@ none as of yet but don't fret as there will be.
 - this application is currently not avail on gh pages. 
 
 ## SPECS
-Describe: toBeNamed()
-Test: "It should do a thing and output some stuff"
-Expect(0).toEqual([0]);
 
-Describe: toBeNamed()
-Test: "It should do a thing and output some stuff"
-Expect(0).toEqual([0]);
+Test: "recieve input from user as value then convert to string into two seperate variables"
+"userInput" and "originalInput" to equal inputed value as a string;
 
-Describe: toBeNamed()
+Test: "create a variable of the replacement words"
+array named "replacementWords" = ["Won't you be my neighbor?", "Boop!", "Beep!"];
+
+
 Test: "It should do a thing and output some stuff"
 Expect(0).toEqual([0]);
 
@@ -94,12 +93,12 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 * GitHub
 * coffee
 * Adobe Photoshop
-* three.js
+* nes.css
 
 ## Resources Quoted
 - w3schools
 - Wikipedia
-- -Udemy.com
+- Udemy.com
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

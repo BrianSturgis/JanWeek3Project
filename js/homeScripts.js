@@ -21,6 +21,8 @@ $(document).ready(function(){
     let numbers = parseInt($("#numbers").val());
     let name = $("#nameOfPerson").val();
     let answer = getNumberRange(numbers);
+    
     $("#response").text("Thanks " + name + answer +" have a nice day!");
+    $(".nes-container-is-rounded").show();
   });
 });
