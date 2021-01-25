@@ -49,27 +49,27 @@ none as of yet but don't fret as there will be.
 
 ## SPECS
 
-Test: "recieve input from user as value then convert to string into two seperate variables"
-"userInput" and "originalInput" to equal inputed value as a string;
+Test: "It should create an empty array called numberRange"
 
-Test: "create a variable of the replacement words"
-array named "replacementWords" = ["Won't you be my neighbor?", "Boop!", "Beep!"];
+Expect:(numberRange).toEqual([]);
 
+Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "3" in it"
+Expect:(numberRange).toEqual(["3"]);
 
-Test: "It should do a thing and output some stuff"
-Expect(0).toEqual([0]);
+Test: "if a number range from the number given to zero is "3" then three will br replaced with "Won't you be my neighbor?"
+Expect:(numberRange).toEqual(["Won't you be my neighbor?"]);
 
-Describe: toBeNamed()
-Test: "It should do a thing and output some stuff"
-Expect(0).toEqual([0]);
+Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "2" in it"
+Expect:(numberRange).toEqual(["2"]);
 
-Describe: toBeNamed()
-Test: "It should do a thing and output some stuff"
-Expect(0).toEqual([0]);
+Test: "if a number range from the number given to zero is "3" then three will br replaced with "boop"
+Expect:(numberRange).toEqual(["boop"]);
 
-Describe: toBeNamed()
-Test: "It should do a thing and output some stuff"
-Expect(0).toEqual([0]);
+Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "1" in it"
+Expect:(numberRange).toEqual(["1"]);
+
+Test: "if a number range from the number given to zero is "1" then three will br replaced with "beep"
+Expect:(numberRange).toEqual(["beep"]);
 
 ## Stretch goals
 - Images, styling, and custom animations used in UI.
