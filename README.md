@@ -1,6 +1,7 @@
 
 <div align="center">
-<img src="" width="auto" height="auto" >
+<img src="img/welcome.jpg" width="auto" height="auto" >
+<img src="img/homePic.jpg" width="auto" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Jan 22nd, v1.0 2021</p>
