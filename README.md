@@ -7,7 +7,7 @@
 <p align="center">Updated on Jan 22nd, v1.0 2021</p>
 <p align="center">Mr Robogers Neighborhood</p>
 
-## Detailed Description
+## Application Description
 This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
 Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
